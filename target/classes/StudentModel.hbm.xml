@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="model.StudentModel" table="Client">
+		<id name="id" column="id" ></id>
+		<property name="name" column="name"></property>
+		<property name="gender" column="gender"></property>
+		<property name="age" column="age"></property>
+		<property name="location" column="location"></property>
+		<property name="email" column="email"></property>
+		<property name="mobileNum" column="mobileNum"></property>
+	</class>
+</hibernate-mapping>
